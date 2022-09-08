@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <main class="screen">
+        <div class="leftside">
+            <img src="./img/why-future-finance-data-science.jpg" alt="" class="img">
+        </div>
+
+        <div class="rightside">
+            <h1>Login</h1>
+
+            <form action="cadastro.php" method="POST" class="hsvalidator">
+                <label for="">
+                    Seu nome:<br/>
+                    <input type="text" name="name" data-rules="required|min=3">
+                </label>
+                <label for="">
+                    Sua senha:<br/>
+                    <input type="password" name="password" id="" data-rules="required|min=6">
+                </label>
+                <label for="">
+                    <input type="submit" value="Login">
+                </label>
+            </form>
+            <div>
+                Não tem uma conta? <a href="cadastro.html">Faça o cadastro</a>
+            </div>
+        </div>
+    </div>
+
+    </main>
+
+    <script src="./assets/login.js"></script>
+</body>
+</html>
